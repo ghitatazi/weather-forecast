@@ -1,0 +1,19 @@
+.forecast-week {
+  display: flex;
+}
+
+.forecast-details {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 783px) {
+  .forecast-week {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .forecast-details {
+    padding-bottom: 50px;
+  }
+}

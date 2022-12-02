@@ -1,0 +1,39 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 125px;
+  border: 1px solid #b8b8b8;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+}
+
+.main-info {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.temp_min {
+  color: #00308f;
+}
+
+.temp_max {
+  color: #c00000;
+}
+
+.description {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 783px) {
+  .day {
+    margin-bottom: 10px;
+  }
+}

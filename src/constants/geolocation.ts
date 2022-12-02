@@ -1,0 +1,2 @@
+export const PARIS_LAT = 48.8588897;
+export const PARIS_LON = 2.3200410217200766;
