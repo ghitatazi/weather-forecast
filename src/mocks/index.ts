@@ -1,2 +1,2 @@
 // @ts-ignore
-// export * as forecastMock from "./forecastMock.json";
+export * as forecastMock from "./forecastMock.json";
